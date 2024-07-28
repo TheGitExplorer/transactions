@@ -9,19 +9,6 @@ This is an example of a RESTful web service implemented in Go using the Gin fram
 - **Get Transactions by Type**: List all transaction IDs that match a specific type.
 - **Get Sum of Transactions**: Calculate the total amount for a transaction and all its linked (child) transactions.
 
-## Project Structure
-transactions/
-│
-├── main.go
-├── config/
-│ └── db.go
-├── routes/
-│ └── routes.go
-├── service/
-│ └── service.go
-├── entity/
-  └── Entity.go
-
 ####################
 
 - **main.go**: Entry point of the application.
